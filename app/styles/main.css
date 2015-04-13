@@ -1,0 +1,42 @@
+body, button, input, select, textarea, h1 ,h2, h3, h4, h5, h6 {
+  font-family: 'Microsoft YaHei', '宋体' , 'Tahoma', 'Helvetica', 'Arial';
+}
+body {
+  padding-top: 70px;
+}
+
+/* signin */
+
+#signinModal .modal-dialog {
+  width: 300px;
+}
+
+#address-group select {
+  width: auto;
+  display: inline;
+}
+
+#room {
+  display: inline;
+  width: 86px;
+}
+
+#custom-address {
+  display: inline;
+  width: 233px;
+}
+#custom-address-group {
+  margin-top: 10px;
+}
+
+#address-group {
+  margin-bottom: 0;
+}
+
+/* task */
+
+.tab-fixed-left {
+  position: fixed;
+  z-index: 1000;
+  padding-right: 45px;
+}

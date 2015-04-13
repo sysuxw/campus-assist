@@ -1,0 +1,108 @@
+<div class="row">
+  <form class="form-horizontal">
+    <div class="form-group">
+      <label for="inputEmail" class="col-md-2 control-label">用户名</label>
+      <div class="col-md-3">
+        <input type="email" class="form-control" id="inputEmail1" placeholder="请输入邮箱">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputNickname" class="col-md-2 control-label">昵称</label>
+      <div class="col-md-3">
+        <input type="text" class="form-control" id="inputNickname" placeholder="请输入昵称">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputSex" class="col-md-2 control-label">性别</label>
+      <div class="col-md-2">
+        <label class="radio-inline">
+          <input type="radio" name="inputSex" id="sex1" value="0" checked> 男
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="inputSex" id="sex2" value="1"> 女
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="inputSex" id="sex3" title="这个可不得了！" value="2"> 未知
+        </label>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputEmotion" class="col-md-2 control-label">感情状况</label>
+      <div class="col-md-2">
+        <select name="emotion" id="inputEmotion" class="form-control">
+          <option value="单身" selected>单身</option>
+          <option value="恋爱">恋爱</option>
+          <option value="已婚">已婚</option>
+          <option value="同性恋">同性恋</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputTelephone" class="col-md-2 control-label">手机号码</label>
+      <div class="col-md-3">
+        <input type="tel" class="form-control" id="inputTelephone" placeholder="请输入短号或手机号码">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputGrade" class="col-md-2 control-label">年级</label>
+      <div class="col-md-2">
+        <select name="grade" id="inputGrade" class="form-control">
+          <option value="大一" selected>大一</option>
+          <option value="大二">大二</option>
+          <option value="大三">大三</option>
+          <option value="大四">大四</option>
+          <option value="研究生">研究生</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group" id="address-group">
+      <label class="col-md-2 control-label">地址</label>
+      <div class="col-md-3">
+        <select name="park" class="form-control">
+          <option value="慎思园" selected>慎思园</option>
+          <option value="明德园">明德园</option>
+          <option value="至善园">至善园</option>
+          <option value="格致园">格致园</option>
+        </select>
+        <select name="floor" class="form-control">
+          <option value="1号" selected>1号</option>
+          <option value="2号">2号</option>
+          <option value="3号">3号</option>
+          <option value="4号">4号</option>
+          <option value="5号">5号</option>
+          <option value="6号">6号</option>
+          <option value="7号">7号</option>
+          <option value="8号">8号</option>
+          <option value="9号">9号</option>
+          <option value="10号">10号</option>
+        </select>
+        <input type="text" class="form-control" id="room" placeholder="房号">
+      </div>
+    </div>
+    <div class="form-group" id="custom-address-group">
+      <div class="col-md-offset-2 col-md-3">
+        <label>其他&nbsp;
+        <input type="text" class="form-control" id="custom-address" placeholder="请手动输入地址">
+        </label>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputPassword1" class="col-md-2 control-label">密码</label>
+      <div class="col-md-3">
+        <input type="password" class="form-control" id="inputPassword1" placeholder="请输入密码">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputPassword2" class="col-md-2 control-label">重复密码</label>
+      <div class="col-md-3">
+        <input type="password" class="form-control" id="inputPassword2" placeholder="请重复输入密码">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-md-offset-2 col-md-3">
+        <button type="submit" class="btn btn-primary">&nbsp;注册&nbsp;</button>
+        <button data-toggle="modal" data-target="#signinModal" class="btn btn-success">已有账号？现在登录吧！</button>
+      </div>
+    </div>
+  </form>
+</div>
